@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto','Arial',sans-serif;
+    
+}
+
+body{
+    background-color: rgb(10,12,27);
+}
+
+.img-container-2{
+    background-color: rgb(172, 1, 172);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+
+.img-container{
+    background-image: url("assets/image-header-desktop.jpg");
+    height: 220px;
+    width: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    opacity: 0.7;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+
+.card-container{
+    width: 270px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-color: rgb(28,25,56);
+    border-radius: 8px;
+
+}
+
+.detail-info-container{
+    padding: 25px;
+}
+
+h1{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+span{
+    color: rgb(157,96,203);
+}
+
+.service-information{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(206, 206, 206);
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.detail-info{
+    text-align: center;
+}
+
+.information{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.information-p{
+    color: rgb(204, 204, 204);
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:800px){
+    .card-container{
+        width: 850px;
+        height: 400px;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 140px;
+    }
+
+    .detail-info-container{
+        padding: 40px;
+    }
+
+    .detail-info{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+
+    h1{
+        font-size: 32px;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    .information-p{
+        font-size: 16px;
+    }
+
+    .service-information{
+        font-size: 18px;
+        margin-top: 40px;
+    }
+
+    .img-container{
+        height: 400px;
+        width: 400px;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 0;
+    }
+
+    .img-container-2{
+        border-radius: 8px;
+    }
+}
